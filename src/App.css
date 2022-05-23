@@ -1,0 +1,288 @@
+body,h1,h2,h3,h4,h5,h6,p,a,ul,li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+.title {
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: 0.065em;
+  text-align: center;
+}
+p {
+  font-weight: 400;
+  font-size: 27px;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 38px;
+  padding-bottom: 44px;
+}
+
+/*   1   */
+
+.title-section {
+  padding-top: 55px;
+  padding-bottom: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title__text {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  padding-left: 42px;
+  padding-right: 42px;
+  border-bottom: 1px solid #000;
+  max-width: 348px;
+}
+
+/*   2   */
+
+.fullviewapp {
+  background: #80A8DB;
+  color: #fff;
+}
+.full-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.full-one img, .full-two img {
+  width: 564px;
+  height: 380px;
+}
+.full-one__text {
+  max-width: 704px;
+  margin-top: 20px;
+}
+.full-two__text {
+  max-width: 704px;
+  margin-bottom: 31px;
+}
+.full-title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.link {
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-top: 36px;
+  padding-top: 44px;
+  border-top: 1px solid #fff;
+}
+.link a {
+  color: #fff;
+}
+
+/*   3   */
+
+
+.wom-section {
+  background: #D6886E;
+  color: #fff;
+}
+.wom-text {
+  text-align: center;
+  max-width: 1379px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+.wom-images {
+  margin-top: 32px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.wom-images img {
+  width: 616px;
+  height: 414px;
+}
+
+/*   4   */
+
+.jav-section {
+  background: #73C5B0;
+  color: #fff;
+}
+.jav-image {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.jav-text {
+  max-width: 390px;
+  text-align: right;
+}
+.jav-image img {
+  width: 840px;
+  height: 416px;
+}
+
+/*   5   */
+
+.block-section {
+  background: #FFE26D;
+  color: #485155;
+}
+.blocks-container {
+  margin-top: 35px;
+  display: flex;
+}
+.block {
+  margin-top: 86px;
+}
+.block-one {
+  width: 739px;
+  height: 371px;
+}
+.block-wrapper {
+  display: flex;
+}
+.block-two-text {
+  max-width: 238px;
+}
+.block-two {
+  margin-left: 35px;
+}
+.block-two-text {
+  margin-top: 60px;
+}
+.block-three-text {
+  text-align: right;
+  max-width: 220px;
+  margin-left: auto;
+  margin-bottom: 55px;
+}
+.block-link a {
+  color: #485155;
+}
+.block-link {
+  border-color: #485155;
+}
+
+/*   6   */
+
+.meta-section {
+  background: #BCBFFF;
+  color: #151B4C;
+}
+.meta-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.meta-text {
+  text-align: center;
+  max-width: 200px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.meta-link a {
+  color: #151B4C;
+}
+.meta-link {
+  border-color: #151B4C;
+}
+
+/*   7   */
+
+.reg-section {
+  background: #3D92D0;
+  color: #fff;
+}
+.reg-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.reg-item-one-text {
+  margin-top: 24px;
+}
+.reg-item-two-text {
+  max-width: 540px;
+  text-align: right;
+  margin-left: auto;
+  margin-bottom: 24px;
+}
+.reg-item-one img {
+  width: 629px;
+  height: 362px;
+}
+.reg-item-two img {
+  width: 624px;
+  height: 328px;
+}
+.socials-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.contacts-title {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  padding-left: 42px;
+  padding-right: 42px;
+  border-bottom: 1px solid #000;
+  max-width: 348px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em;
+}
+
+.wrapper * {
+  color: #fff;
+}
+.wrapper {
+  width: 1000px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social {
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.telegram {
+  background: #3D92D0;
+}
+.gmail {
+  background: #dc0f00;
+}
+.tel {
+  background: #d7a10a;
+}
+.social-title {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.social-link {
+  margin-left: 10px;
+  font-size: 25px;
+}
