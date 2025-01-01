@@ -16,7 +16,6 @@ function App() {
             <Title />
             <Fullviewapp />
             <Womazing />
-            <Javascript />
             <Blockchain />
             <Metamask />
             <Register />
